@@ -1,11 +1,69 @@
-# SWE INTERVIEW TEST 
-THIS IS TO TEST YOUR SKILLS TO MEET OUR APP DEVELOPMENT REQUIREMENTS
+# Simple Card List Application
 
-1. Clone this repo to your local machine.
-2. Read `Assignment Requirements` carefully and follow it.
-4. Please commit your entire code to `your own Github repository` 
-5. On your repo, please add step-by-step instructions on how to launch (for both the Backend and Frontend) to the `README.md`
-6. Share your repo link with us via email.
+This project consists of a React frontend and a Node.js/Express backend. Follow the setup instructions below to launch both components.
 
-HAPPY CODING! </br>
-A Round Entertainment
+---
+
+# Frontend Setup Instructions
+
+This is the frontend component for the Simple Card List Application, built with React and Material UI.
+
+## Prerequisites
+Make sure you have Node.js and npm installed on your machine.
+
+## How to Launch
+
+1. Open a terminal and navigate to the frontend directory:
+   ```bash
+   cd StarterCode/frontend
+   ```
+
+2. Install the necessary project dependencies:
+   ```bash
+   npm install
+   ```
+
+3. (Optional) View dependency funding information:
+   ```bash
+   npm fund
+   ```
+
+4. Launch the application:
+   ```bash
+   npm run start
+   ```
+
+5. The front end should now automatically open in your web browser at `http://localhost:3000`. To view the data properly, ensure that the backend application is simultaneously running.
+
+---
+
+# Backend Setup Instructions
+
+This is the backend server component for the Simple Card List Application, built with Node.js and Express.js.
+
+## Prerequisites
+Make sure you have Node.js and npm installed on your machine.
+
+## How to Launch
+
+1. Open a terminal and navigate to the backend directory:
+   ```bash
+   cd StarterCode/backend
+   ```
+
+2. Install the necessary project dependencies:
+   ```bash
+   npm install
+   ```
+
+3. (Optional) View dependency funding information:
+   ```bash
+   npm fund
+   ```
+
+4. Launch the application:
+   ```bash
+   node index.js
+   ```
+
+5. The server will start and be accessible at `http://localhost:5000`. Leave this terminal tab running so the frontend can properly fetch and modify the backend data via API endpoints.
